@@ -1,0 +1,15 @@
+C:\Users\santi\PeliculasTaller1\Peliculas\bin\Debug\net10.0\Peliculas.exe
+C:\Users\santi\PeliculasTaller1\Peliculas\bin\Debug\net10.0\Peliculas.deps.json
+C:\Users\santi\PeliculasTaller1\Peliculas\bin\Debug\net10.0\Peliculas.runtimeconfig.json
+C:\Users\santi\PeliculasTaller1\Peliculas\bin\Debug\net10.0\Peliculas.dll
+C:\Users\santi\PeliculasTaller1\Peliculas\bin\Debug\net10.0\Peliculas.pdb
+C:\Users\santi\PeliculasTaller1\Peliculas\obj\Debug\net10.0\Peliculas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\PeliculasTaller1\Peliculas\obj\Debug\net10.0\Peliculas.AssemblyInfoInputs.cache
+C:\Users\santi\PeliculasTaller1\Peliculas\obj\Debug\net10.0\Peliculas.AssemblyInfo.cs
+C:\Users\santi\PeliculasTaller1\Peliculas\obj\Debug\net10.0\Peliculas.csproj.CoreCompileInputs.cache
+C:\Users\santi\PeliculasTaller1\Peliculas\obj\Debug\net10.0\Peliculas.sourcelink.json
+C:\Users\santi\PeliculasTaller1\Peliculas\obj\Debug\net10.0\Peliculas.dll
+C:\Users\santi\PeliculasTaller1\Peliculas\obj\Debug\net10.0\refint\Peliculas.dll
+C:\Users\santi\PeliculasTaller1\Peliculas\obj\Debug\net10.0\Peliculas.pdb
+C:\Users\santi\PeliculasTaller1\Peliculas\obj\Debug\net10.0\Peliculas.genruntimeconfig.cache
+C:\Users\santi\PeliculasTaller1\Peliculas\obj\Debug\net10.0\ref\Peliculas.dll
