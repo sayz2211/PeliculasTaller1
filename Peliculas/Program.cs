@@ -19,11 +19,11 @@ var directores = new List<Directores> {
 
 
 var peliculas = new List<Peliculas> {
-    new Peliculas { Id = 1, Nombre = "Avengers: Endgame", Estreno = 2019, Clasi_edad = "PG-13", puntuacion = 9,  Disponibilidad = true,  Id_Director = 1 },
-    new Peliculas { Id = 2, Nombre = "Inception",         Estreno = 2010, Clasi_edad = "PG-13", puntuacion = 10, Disponibilidad = true,  Id_Director = 2 },
-    new Peliculas { Id = 3, Nombre = "Avatar",            Estreno = 2009, Clasi_edad = "PG-13", puntuacion = 8,  Disponibilidad = false, Id_Director = 3 },
-    new Peliculas { Id = 4, Nombre = "Jurassic Park",     Estreno = 1993, Clasi_edad = "PG-13", puntuacion = 9,  Disponibilidad = true,  Id_Director = 4 },
-    new Peliculas { Id = 5, Nombre = "Parasite",          Estreno = 2019, Clasi_edad = "R",     puntuacion = 10, Disponibilidad = true,  Id_Director = 5 },
+    new Peliculas { Id = 1, Nombre = "Avengers: Endgame", Estreno = "2019", Clasi_edad = "PG-13", puntuacion = 9,  Disponibilidad = true,  Id_Director = 1 },
+    new Peliculas { Id = 2, Nombre = "Inception",         Estreno = "2009", Clasi_edad = "PG-13", puntuacion = 10, Disponibilidad = true,  Id_Director = 2 },
+    new Peliculas { Id = 3, Nombre = "Avatar",            Estreno = "1899", Clasi_edad = "PG-13", puntuacion = 8,  Disponibilidad = false, Id_Director = 3 },
+    new Peliculas { Id = 4, Nombre = "Jurassic Park",     Estreno = "1993", Clasi_edad = "PG-13", puntuacion = 9,  Disponibilidad = true,  Id_Director = 4 },
+    new Peliculas { Id = 5, Nombre = "Parasite",          Estreno = "2019", Clasi_edad = "R",     puntuacion = 10, Disponibilidad = true,  Id_Director = 5 },
 };
 
 
@@ -107,47 +107,47 @@ var inventarios = new List<Inventarios> {
 
 
 var formatosPeliculas = new List<Formatos_Peliculas> {
-    new Formatos_Peliculas { Id = 1, Id_Peliculas = 1, Id_Fomatos = 1, Id_Invetarios = 1, Precio = 12000m },
-    new Formatos_Peliculas { Id = 2, Id_Peliculas = 2, Id_Fomatos = 2, Id_Invetarios = 2, Precio = 18000m },
-    new Formatos_Peliculas { Id = 3, Id_Peliculas = 3, Id_Fomatos = 3, Id_Invetarios = 3, Precio = 25000m },
-    new Formatos_Peliculas { Id = 4, Id_Peliculas = 4, Id_Fomatos = 1, Id_Invetarios = 4, Precio = 10000m },
-    new Formatos_Peliculas { Id = 5, Id_Peliculas = 5, Id_Fomatos = 2, Id_Invetarios = 5, Precio = 20000m },
+new Formatos_Peliculas { Id = 1, Id_Peliculas = 1, Id_Fomatos = 1, Id_Invetarios = 1, Precio_Formato = 12000m },
+new Formatos_Peliculas { Id = 2, Id_Peliculas = 2, Id_Fomatos = 2, Id_Invetarios = 2, Precio_Formato = 18000m },
+new Formatos_Peliculas { Id = 3, Id_Peliculas = 3, Id_Fomatos = 3, Id_Invetarios = 3, Precio_Formato = 25000m },
+new Formatos_Peliculas { Id = 4, Id_Peliculas = 4, Id_Fomatos = 1, Id_Invetarios = 4, Precio_Formato = 10000m },
+new Formatos_Peliculas { Id = 5, Id_Peliculas = 5, Id_Fomatos = 2, Id_Invetarios = 5, Precio_Formato = 20000m },
 };
 
 
 var rentas = new List<Rentas> {
-    new Rentas { Id = 1, Precio = 5000m,  Cantidad = 1, Fecha_Renta = new DateTime(2024,6,1),  Fecha_Limite = new DateTime(2024,6,5)  },
-    new Rentas { Id = 2, Precio = 8000m,  Cantidad = 2, Fecha_Renta = new DateTime(2024,6,10), Fecha_Limite = new DateTime(2024,6,14) },
-    new Rentas { Id = 3, Precio = 5000m,  Cantidad = 1, Fecha_Renta = new DateTime(2024,7,1),  Fecha_Limite = new DateTime(2024,7,4)  },
-    new Rentas { Id = 4, Precio = 10000m, Cantidad = 3, Fecha_Renta = new DateTime(2024,7,15), Fecha_Limite = new DateTime(2024,7,19) },
-    new Rentas { Id = 5, Precio = 5000m,  Cantidad = 1, Fecha_Renta = new DateTime(2024,8,1),  Fecha_Limite = new DateTime(2024,8,5)  },
+    new Rentas { Id = 1, Precio_Dia = 5000m,  Cantidad = 1, Fecha_Renta = new DateTime(2024,6,1),  Fecha_Limite = new DateTime(2024,6,5)  },
+    new Rentas { Id = 2, Precio_Dia  = 8000m,  Cantidad = 2, Fecha_Renta = new DateTime(2024,6,10), Fecha_Limite = new DateTime(2024,6,14) },
+    new Rentas { Id = 3, Precio_Dia  = 5000m,  Cantidad = 1, Fecha_Renta = new DateTime(2024,7,1),  Fecha_Limite = new DateTime(2024,7,4)  },
+    new Rentas { Id = 4, Precio_Dia  = 10000m, Cantidad = 3, Fecha_Renta = new DateTime(2024,7,15), Fecha_Limite = new DateTime(2024,7,19) },
+    new Rentas { Id = 5, Precio_Dia  = 5000m,  Cantidad = 1, Fecha_Renta = new DateTime(2024,8,1),  Fecha_Limite = new DateTime(2024,8,5)  },
 };
 
 
 var rentasPeliculas = new List<Rentas_Peliculas> {
-    new Rentas_Peliculas { Id = 1, Id_Rentas = 1, Id_Peliculas = 1, Cantidad = 1, Dias = 4, Total = 20000m },
-    new Rentas_Peliculas { Id = 2, Id_Rentas = 2, Id_Peliculas = 2, Cantidad = 2, Dias = 4, Total = 32000m },
-    new Rentas_Peliculas { Id = 3, Id_Rentas = 3, Id_Peliculas = 3, Cantidad = 1, Dias = 3, Total = 15000m },
-    new Rentas_Peliculas { Id = 4, Id_Rentas = 4, Id_Peliculas = 4, Cantidad = 3, Dias = 4, Total = 40000m },
-    new Rentas_Peliculas { Id = 5, Id_Rentas = 5, Id_Peliculas = 5, Cantidad = 1, Dias = 4, Total = 20000m },
+new Rentas_Peliculas { Id = 1, Id_Rentas = 1, Id_Peliculas = 1, Id_Formatos_Peliculas = 1, Cantidad = 1, Dias = 4, Precio_Dia = 5000m,  Subtotal = 20000m },
+new Rentas_Peliculas { Id = 2, Id_Rentas = 2, Id_Peliculas = 2, Id_Formatos_Peliculas = 2, Cantidad = 2, Dias = 4, Precio_Dia = 8000m,  Subtotal = 32000m },
+new Rentas_Peliculas { Id = 3, Id_Rentas = 3, Id_Peliculas = 3, Id_Formatos_Peliculas = 3, Cantidad = 1, Dias = 3, Precio_Dia = 5000m,  Subtotal = 15000m },
+new Rentas_Peliculas { Id = 4, Id_Rentas = 4, Id_Peliculas = 4, Id_Formatos_Peliculas = 4, Cantidad = 3, Dias = 4, Precio_Dia = 10000m, Subtotal = 40000m },
+new Rentas_Peliculas { Id = 5, Id_Rentas = 5, Id_Peliculas = 5, Id_Formatos_Peliculas = 5, Cantidad = 1, Dias = 4, Precio_Dia = 5000m,  Subtotal = 20000m },
 };
 
 
 var ventas = new List<Ventas> {
-    new Ventas { Id = 1, Precio = 25000m, Cantidad = 1 },
-    new Ventas { Id = 2, Precio = 50000m, Cantidad = 2 },
-    new Ventas { Id = 3, Precio = 35000m, Cantidad = 1 },
-    new Ventas { Id = 4, Precio = 75000m, Cantidad = 3 },
-    new Ventas { Id = 5, Precio = 25000m, Cantidad = 1 },
+    new Ventas { Id = 1, Precio_Venta = 25000m, Cantidad = 1 },
+    new Ventas { Id = 2, Precio_Venta = 50000m, Cantidad = 2 },
+    new Ventas { Id = 3, Precio_Venta = 35000m, Cantidad = 1 },
+    new Ventas { Id = 4, Precio_Venta = 75000m, Cantidad = 3 },
+    new Ventas { Id = 5, Precio_Venta = 25000m, Cantidad = 1 },
 };
 
 
 var ventasPeliculas = new List<Ventas_Peliculas> {
-    new Ventas_Peliculas { Id = 1, Id_Ventas = 1, Id_Peliculas = 1, Cantidad = 1, Precio = 25000m },
-    new Ventas_Peliculas { Id = 2, Id_Ventas = 2, Id_Peliculas = 2, Cantidad = 2, Precio = 50000m },
-    new Ventas_Peliculas { Id = 3, Id_Ventas = 3, Id_Peliculas = 3, Cantidad = 1, Precio = 35000m },
-    new Ventas_Peliculas { Id = 4, Id_Ventas = 4, Id_Peliculas = 4, Cantidad = 3, Precio = 75000m },
-    new Ventas_Peliculas { Id = 5, Id_Ventas = 5, Id_Peliculas = 5, Cantidad = 1, Precio = 25000m },
+    new Ventas_Peliculas { Id = 1, Id_Ventas = 1, Id_Peliculas = 1, Id_Formatos_Peliculas = 1, Cantidad = 1, Precio_U = 25000m, Subtotal = 25000m },
+    new Ventas_Peliculas { Id = 2, Id_Ventas = 2, Id_Peliculas = 2, Id_Formatos_Peliculas = 2, Cantidad = 2, Precio_U = 25000m, Subtotal = 50000m },
+    new Ventas_Peliculas { Id = 3, Id_Ventas = 3, Id_Peliculas = 3, Id_Formatos_Peliculas = 3, Cantidad = 1, Precio_U = 35000m, Subtotal = 35000m },
+    new Ventas_Peliculas { Id = 4, Id_Ventas = 4, Id_Peliculas = 4, Id_Formatos_Peliculas = 4, Cantidad = 3, Precio_U = 25000m, Subtotal = 75000m },
+    new Ventas_Peliculas { Id = 5, Id_Ventas = 5, Id_Peliculas = 5, Id_Formatos_Peliculas = 5, Cantidad = 1, Precio_U = 25000m, Subtotal = 25000m },
 };
 
 
@@ -192,7 +192,6 @@ public string ? Cedula   { get; set; }
 public String ? Correo  { get; set; }  
 public DateTime Fecha   { get; set; } 
 public string? Telefono   { get; set; } 
-
 public int Id_Status { get; set; }        
  public Status? Status { get; set; } 
 public List<Facturas>? Facturas { get; set; }
@@ -203,7 +202,7 @@ public List<Devoluciones>? Devoluciones { get; set; }
 public class Peliculas {
 public int Id  { get; set; }
 public string? Nombre  { get; set; } 
-public int ?   Estreno { get; set; } 
+public string ?  Estreno { get; set; } 
 public string? Clasi_edad { get; set; } 
 public int puntuacion  { get; set; } 
 public bool Disponibilidad  { get; set; } 
@@ -257,7 +256,7 @@ public List<Devoluciones>? Devoluciones { get; set; }
 public class Rentas 
 {
 public int Id  { get; set; }
-public decimal Precio { get; set; } = 0.0m ;
+public decimal Precio_Dia { get; set; } = 0.0m ;
 public  int Cantidad { get; set; } 
 public DateTime Fecha_Renta  { get; set; } 
 public DateTime Fecha_Limite { get; set; } 
@@ -268,7 +267,7 @@ public DateTime Fecha_Limite { get; set; }
 
 public class Ventas {
 public int Id  { get; set; }
-public decimal Precio { get; set; } = 0.0m ;
+public decimal Precio_Venta { get; set; } = 0.0m ;
 public  int Cantidad { get; set; } 
 
 public List<Ventas_Peliculas>? Ventas_Peliculas { get; set; }
@@ -356,10 +355,12 @@ public int Id  { get; set; }
 public int Id_Peliculas{ get; set; }
 public int Id_Fomatos { get; set; }
 public int Id_Invetarios{ get; set; }
-public decimal Precio { get; set; } = 0.0m ;
+public decimal Precio_Formato{ get; set; } = 0.0m ;
 public Peliculas? Pelicula { get; set; }
  public Formatos? Formato { get; set; }
  public Inventarios? Inventario { get; set; }
+ public List<Ventas_Peliculas>? Ventas_Peliculas { get; set; }
+ public List<Rentas_Peliculas>? Rentas_Peliculas { get; set; }
 
 }
 
@@ -397,10 +398,13 @@ public class Ventas_Peliculas   {
 public int Id  { get; set; }
 public int Id_Ventas { get; set; }
 public int Id_Peliculas{ get; set; }
+public int Id_Formatos_Peliculas { get; set; }
+public decimal Precio_U { get; set; } = 0.0m ;
 public int Cantidad { get; set; }
-public decimal Precio { get; set; } = 0.0m ;
+ public decimal Subtotal { get; set; }
 public Ventas? Venta { get; set; }
 public Peliculas? Pelicula { get; set; }
+public Formatos_Peliculas? Formato_Pelicula { get; set; }
 }
 
 public class Rentas_Peliculas   {
@@ -408,11 +412,14 @@ public class Rentas_Peliculas   {
 public int Id  { get; set; }
 public int Id_Rentas { get; set; }
 public int Id_Peliculas{ get; set; }
+public int Id_Formatos_Peliculas { get; set; }
 public int Cantidad { get; set; }
 public int Dias { get; set; }
-public decimal Total { get; set; } = 0.0m ;
+  public decimal Precio_Dia { get; set; }
+public decimal Subtotal { get; set; } = 0.0m ;
 public Rentas? Renta { get; set; }
 public Peliculas? Pelicula { get; set; }
+public Formatos_Peliculas? Formato_Pelicula { get; set; } 
 
 }
 
